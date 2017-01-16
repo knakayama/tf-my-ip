@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 module "my_ip" {
-  source = ".."
+  source = "github.com/knakayama/tf-my-ip"
 }
